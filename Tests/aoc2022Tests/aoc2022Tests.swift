@@ -117,4 +117,9 @@ final class aoc2022Tests: XCTestCase {
     func testDay13Part1MyInput() throws { try runTest("13_my_input.txt", day13_part1_solve, expected: "5580") }
     func testDay13Part2Example() throws { try runTest("13_example.txt",  day13_part2_solve, expected: "140") }
     func testDay13Part2MyInput() throws { try runTest("13_my_input.txt", day13_part2_solve, expected: "26200") }
+
+    func testDay14Part1Example() throws { try runTest("14_example.txt",  day14_part1_solve, expected: "24") }
+    func testDay14Part1MyInput() throws { try runTest("14_my_input.txt", day14_part1_solve, expected: "1330") }
+    func testDay14Part2Example() throws { try runTest("14_example.txt",  day14_part2_solve, expected: "93") }
+    func testDay14Part2MyInput() throws { try runTest("14_my_input.txt", day14_part2_solve, expected: "26139") }
 }

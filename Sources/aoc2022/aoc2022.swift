@@ -56,6 +56,8 @@ class Main {
                 case (12, 2): solver_func = day12_part2_solve
                 case (13, 1): solver_func = day13_part1_solve
                 case (13, 2): solver_func = day13_part2_solve
+                case (14, 1): solver_func = day14_part1_solve
+                case (14, 2): solver_func = day14_part2_solve
                 case (1...25, _): 
                     print("Day \(config.day) has not been solved yet.")
                 default: 
